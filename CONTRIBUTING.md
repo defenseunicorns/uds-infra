@@ -32,11 +32,27 @@ Specifically:
 
 ### Testing
 
-TODO: Write this section
+#### Minimum Testing Requirement for a Terraform Module
+- The module is tested using [Terratest](https://terratest.gruntwork.io/)
+- At least one example exists and is tested such that the test passes if the `apply` and `destroy` are both completed successfully. The norm is to have an example called "complete" that tests the module with as many of its features enabled as possible.
+- Developers are able to run the tests as part of a PR review
+- Developers are able to run the tests locally
+- The tests are always run on each push to `main`
 
 ### Documentation
 
-TODO: Write this section
+#### Minimum Documentation Requirement for a Terraform Module
+- The module has a README.md that includes:
+  - A description of the module
+  - A Getting Started section
+  - A list of required providers and their version constraint
+  - A list of each module that this module consumes, with source and version
+  - A list of the resources that the module creates
+  - A list of the inputs with name, description, type, and default value
+  - A list of the outputs with name and description
+- The module has at least one example
+
+> The [terraform-docs](https://github.com/terraform-docs/terraform-docs/) tool is used to generate the lists specified above
 
 ### Backlog Management
 
