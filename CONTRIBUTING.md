@@ -33,7 +33,7 @@ Specifically:
 ### Testing
 
 #### Minimum Testing Requirement for a Terraform Module
-- The module uses [Terratest](https://terratest.gruntwork.io/) to test the module
+- The module is tested using [Terratest](https://terratest.gruntwork.io/)
 - At least one example exists and is tested such that the test passes if the `apply` and `destroy` are both completed successfully. The norm is to have an example called "complete" that tests the module with as many of its features enabled as possible.
 - Developers are able to run the tests as part of a PR review
 - Developers are able to run the tests locally
