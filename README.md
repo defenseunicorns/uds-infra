@@ -26,7 +26,7 @@ Or as a Value Proposition Statement:
 > **[Is a]** collection of prepackaged infrastructure environments  
 > **[That]** are declarative, repeatable, modular, auditable, and compliant.  
 > **[Unlike]** building infrastructure from disparate parts that still need to be accredited as a whole  
-> **[Our solution]** provides a prepackaged environment that comes with built-in compliance validation, so that the team can spend more time doing what really matters, which is delivering mission value to their users.
+> **[Our solution]** provides a prepackaged (but still configurable) environment that significantly reduces the amount of work required to deploy and accredit infrastructure, so that the team can spend more time doing what really matters, which is delivering mission value to their users.
 
 The first prepackaged environment that Edafos will target is one that must meet [United States of America Department of Defense Impact Level 5 (IL5) requirements](https://cic.gsa.gov/basics/cloud-security) plus the [I.T. Control Requirements for Unclassified Naval Nuclear Propulsion Information (U-NNPI)](https://irp.fas.org/doddir/navy/opnavinst/n9210_3.pdf) in Amazon Web Services (AWS). Prepackaged environments that meet other compliance standards and in other Cloud Service Providers and On-Premise, will be added as the project matures.
 
