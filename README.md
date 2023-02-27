@@ -1,6 +1,8 @@
 # uds-infra
 Foundational project for Unicorn Delivery Service's infrastructure layer, composed of reusable IaC modules and reusable prepackaged compliant environments. Nickname: edafos (greek for "foundation" or "ground")
 
+The public product backlog / roadmap for Edafos can be found [here](github.com/orgs/defenseunicorns/projects/24/views/1).
+
 ## Vision
 
 Edafos is the lowest layer of the Unicorn Delivery Service (UDS). It is the foundation of the UDS product and is responsible for providing the infrastructure layer that is required for UDS to function. Edafos is composed of two main sets of components:
