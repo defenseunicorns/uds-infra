@@ -16,7 +16,7 @@ As a software engineering team that needs to deploy Kubernetes-based application
 I want the ability to deploy the infrastructure for that environment in a repeatable, auditable, and compliant manner,  
 so that I can spend more time doing what really matters, which is delivering mission value to my users.
 
-The first prepackaged environment that Edafos will target is one that must meet [United States of America Department of Defense Impact Level 5 (IL5) requirements](https://cic.gsa.gov/basics/cloud-security) plus the [I.T. Control Requirements for Unclassified Naval Unclear Propulsion Information (U-NNPI)](https://irp.fas.org/doddir/navy/opnavinst/n9210_3.pdf) in Amazon Web Services (AWS). Prepackaged environments that meet other compliance standards and in other Cloud Service Providers and On-Premise, will be added as the project matures.
+The first prepackaged environment that Edafos will target is one that must meet [United States of America Department of Defense Impact Level 5 (IL5) requirements](https://cic.gsa.gov/basics/cloud-security) plus the [I.T. Control Requirements for Unclassified Naval Nuclear Propulsion Information (U-NNPI)](https://irp.fas.org/doddir/navy/opnavinst/n9210_3.pdf) in Amazon Web Services (AWS). Prepackaged environments that meet other compliance standards and in other Cloud Service Providers and On-Premise, will be added as the project matures.
 
 ## Reusable IaC Modules
 
