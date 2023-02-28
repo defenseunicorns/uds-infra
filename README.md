@@ -5,7 +5,7 @@ The public product backlog / roadmap for Edafos can be found [here](github.com/o
 
 ## Vision
 
-Edafos is the lowest layer of the Unicorn Delivery Service (UDS). It is the foundation of the UDS product and is responsible for providing the infrastructure layer that is required for UDS to function. Edafos is composed of two main sets of components:
+Edafos is the first layer of the Unicorn Delivery Service (UDS). It is the foundation of the UDS product and is responsible for providing the infrastructure layer that is required for UDS to function. Edafos is composed of two main sets of components:
 
 * Reusable Infrastructure as Code modules powered by Terraform (the modules)
 * Reusable prepackaged compliant environments that use the modules, powered by Zarf (the packages)
@@ -14,9 +14,9 @@ As UDS matures, Edafos will become a component of UDS such that the user is just
 
 The overall vision for Edafos can be described with the following user story:
 
-> As a software engineering team that needs to deploy Kubernetes-based applications in an environment that is required to meet certain compliance standards,  
+> As a user of UDS that needs to deploy Kubernetes-based applications in an environment that is required to meet certain compliance standards,  
 > I want the ability to deploy the infrastructure for that environment in a declarative, repeatable, modular, auditable, and compliant manner,  
-> so that I can spend more time doing what really matters, which is delivering mission value to my users.
+> so that I can spend more time doing what really matters, which is delivering mission value.
 
 Or as a Value Proposition Statement:
 
